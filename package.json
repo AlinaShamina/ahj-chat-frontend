@@ -1,0 +1,22 @@
+{
+  "name": "ahj-chat-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "author": "AlinaShamina",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.103.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.16.0",
+    "css-loader": "^6.8.0",
+    "style-loader": "^3.3.2",
+    "html-webpack-plugin": "^5.5.0"
+  }
+}
+
